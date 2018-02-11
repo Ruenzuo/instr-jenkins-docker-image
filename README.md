@@ -28,3 +28,6 @@ java -jar "agent.jar" -jnlpUrl http://localhost:8080/computer/macos-host/slave-a
 ```
 
 3. Navigate to [http://localhost:8080](http://localhost:8080) and run/inspect the [sample job](http://localhost:8080/job/instr-ios-sample-app/) prepared for you.
+
+![job_page](https://raw.githubusercontent.com/Ruenzuo/instr-jenkins-docker-image/master/images/job_page.png?token=AAVJ3m8JnUsMGNNT5Lh1r7Ma1u-i1P6Fks5aiYlmwA%3D%3D)
+![performance_trend](https://raw.githubusercontent.com/Ruenzuo/instr-jenkins-docker-image/master/images/performance_trend.png?token=AAVJ3t7gJxHmpuVVRUNv5wMlTHc1tdSLks5aiYnPwA%3D%3D)
