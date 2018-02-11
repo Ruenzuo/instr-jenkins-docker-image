@@ -1,0 +1,38 @@
+[instr-ios-sample-app] Running shell script
++ bundle install
+Using CFPropertyList 2.3.6
+Using concurrent-ruby 1.0.5
+Using i18n 0.9.4
+Using minitest 5.11.3
+Using thread_safe 0.3.6
+Using tzinfo 1.2.5
+Using activesupport 4.2.10
+Using atomos 0.1.2
+Using bundler 1.16.1
+Using claide 1.0.2
+Using fuzzy_match 2.0.4
+Using nap 1.1.0
+Using cocoapods-core 1.4.0
+Using cocoapods-deintegrate 1.0.2
+Using cocoapods-downloader 1.1.3
+Using cocoapods-plugins 1.0.0
+Using cocoapods-search 1.0.0
+Using cocoapods-stats 1.0.0
+Using netrc 0.11.0
+Using cocoapods-trunk 1.3.0
+Using cocoapods-try 1.1.0
+Using colored2 3.1.2
+Using escape 0.0.4
+Using fourflusher 2.0.1
+Using gh_inspector 1.1.2
+Using molinillo 0.6.4
+Using ruby-macho 1.1.0
+Using nanaimo 0.2.3
+Using xcodeproj 1.5.6
+Using cocoapods 1.4.0
+Using colorize 0.8.1
+Using naturally 2.1.0
+Using simctl 1.6.2
+Using instrumentality 0.1.3
+Bundle complete! 2 Gemfile dependencies, 34 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.

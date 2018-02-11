@@ -1,0 +1,18 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/Ruenzuo/instr-ios-sample-app.git
+ > git init /tmp/jenkins_macos_host/workspace/instr-ios-sample-app # timeout=10
+Fetching upstream changes from https://github.com/Ruenzuo/instr-ios-sample-app.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Ruenzuo/instr-ios-sample-app.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Ruenzuo/instr-ios-sample-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Ruenzuo/instr-ios-sample-app.git # timeout=10
+Fetching upstream changes from https://github.com/Ruenzuo/instr-ios-sample-app.git
+ > git fetch --tags --progress https://github.com/Ruenzuo/instr-ios-sample-app.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6908d10041b2880ff5f2eeeff48f1cd0ae8edb7d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6908d10041b2880ff5f2eeeff48f1cd0ae8edb7d
+Commit message: "Add Jenkinsfile (#2)"
+First time build. Skipping changelog.

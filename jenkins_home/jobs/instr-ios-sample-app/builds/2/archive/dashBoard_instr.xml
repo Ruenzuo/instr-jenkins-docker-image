@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<results>
+<absoluteDefinition>
+	<unstable>-1</unstable>
+	<failed>-1</failed>
+	<calculated>0.0</calculated>
+</absoluteDefinition>
+<average>
+	<DetailViewController>
+		<currentBuildAvg>609</currentBuildAvg>
+	</DetailViewController>
+	<ViewController>
+		<currentBuildAvg>101</currentBuildAvg>
+	</ViewController>
+</average>
+<median>
+	<DetailViewController>
+		<currentBuildMed>609</currentBuildMed>
+	</DetailViewController>
+	<ViewController>
+		<currentBuildMed>101</currentBuildMed>
+	</ViewController>
+</median>
+<percentile>
+	<DetailViewController>
+		<currentBuild90Line>609</currentBuild90Line>
+	</DetailViewController>
+	<ViewController>
+		<currentBuild90Line>101</currentBuild90Line>
+	</ViewController>
+</percentile>
+</results>

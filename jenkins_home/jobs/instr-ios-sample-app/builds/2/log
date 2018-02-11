@@ -1,0 +1,148 @@
+Started by user [8mha:////4MwJh5jqc5BC3yLTM1u4nYuwbg143OkOhjoW4BXr9m0jAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Obtained Jenkinsfile from git https://github.com/Ruenzuo/instr-ios-sample-app.git
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4K4iIiQQaDtyeT1c+trt7ktQhpuFLCxHEwTCNR5X2zz2AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZR/eT83ILSktQi/dzE5Pxi3Yz84hJ9ACaqSE7KAAAA[0mmacos-host in /tmp/jenkins_macos_host/workspace/instr-ios-sample-app
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Ruenzuo/instr-ios-sample-app.git # timeout=10
+Fetching upstream changes from https://github.com/Ruenzuo/instr-ios-sample-app.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Ruenzuo/instr-ios-sample-app.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6908d10041b2880ff5f2eeeff48f1cd0ae8edb7d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6908d10041b2880ff5f2eeeff48f1cd0ae8edb7d
+Commit message: "Add Jenkinsfile (#2)"
+ > git rev-list --no-walk 6908d10041b2880ff5f2eeeff48f1cd0ae8edb7d # timeout=10
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Bootstrap)
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[instr-ios-sample-app] Running shell script
++ bundle install
+Using CFPropertyList 2.3.6
+Using concurrent-ruby 1.0.5
+Using i18n 0.9.4
+Using minitest 5.11.3
+Using thread_safe 0.3.6
+Using tzinfo 1.2.5
+Using activesupport 4.2.10
+Using atomos 0.1.2
+Using bundler 1.16.1
+Using claide 1.0.2
+Using fuzzy_match 2.0.4
+Using nap 1.1.0
+Using cocoapods-core 1.4.0
+Using cocoapods-deintegrate 1.0.2
+Using cocoapods-downloader 1.1.3
+Using cocoapods-plugins 1.0.0
+Using cocoapods-search 1.0.0
+Using cocoapods-stats 1.0.0
+Using netrc 0.11.0
+Using cocoapods-trunk 1.3.0
+Using cocoapods-try 1.1.0
+Using colored2 3.1.2
+Using escape 0.0.4
+Using fourflusher 2.0.1
+Using gh_inspector 1.1.2
+Using molinillo 0.6.4
+Using ruby-macho 1.1.0
+Using nanaimo 0.2.3
+Using xcodeproj 1.5.6
+Using cocoapods 1.4.0
+Using colorize 0.8.1
+Using naturally 2.1.0
+Using simctl 1.6.2
+Using instrumentality 0.1.3
+Bundle complete! 2 Gemfile dependencies, 34 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[instr-ios-sample-app] Running shell script
++ bundle exec pod install
+Analyzing dependencies
+Downloading dependencies
+Using EarlGrey (1.12.1)
+Using GCDWebServer (3.4.2)
+Using instrserver (0.1.0)
+Generating Pods project
+Integrating client project
+Sending stats
+Pod installation complete! There are 3 dependencies from the Podfile and 3 total pods installed.
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Run instr)
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[instr-ios-sample-app] Running shell script
++ bundle exec instr profile benchmark InstrSampleApp --workspace=InstrSampleApp.xcworkspace/ --server-port=8081
+[Instr] Executing command: xcodebuild -workspace /private/tmp/jenkins_macos_host/workspace/instr-ios-sample-app/InstrSampleApp.xcworkspace/ -scheme InstrSampleApp -sdk iphonesimulator -derivedDataPath /var/folders/1g/37d2t18n2y37gbjb61npzmlm5wcxmb/T/d20180211-12959-7csino/derivedData clean build-for-testing
+[Instr] Spawned process (PID: 13636) from command: xcodebuild -xctestrun /var/folders/1g/37d2t18n2y37gbjb61npzmlm5wcxmb/T/d20180211-12959-7csino/derivedData/Build/Products/InstrSampleApp_iphonesimulator11.2-x86_64.xctestrun -destination 'platform=iOS Simulator,id=FB724473-1A1F-4B4E-AFE9-2CCF76EF6064' test-without-building
+User defaults from command line:
+    IDETestRunSpecificationPath = /var/folders/1g/37d2t18n2y37gbjb61npzmlm5wcxmb/T/d20180211-12959-7csino/derivedData/Build/Products/InstrSampleApp_iphonesimulator11.2-x86_64.xctestrun
+
+2018-02-11 14:43:11.071 xcodebuild[13636:1551617]  IDETestOperationsObserverDebug: Writing diagnostic log for test session to:
+/var/folders/1g/37d2t18n2y37gbjb61npzmlm5wcxmb/T/com.apple.dt.XCTest/IDETestRunSession-D5233258-5FFE-4B0B-BAA9-3987FA43975E/InstrSampleAppTests-CDC82D58-832F-4CE8-9CAE-B2CA9CE1F297/Session-InstrSampleAppTests-2018-02-11_144311-y69GMN.log
+2018-02-11 14:43:11.071 xcodebuild[13636:1551554] [MT] IDETestOperationsObserverDebug: (29BF0FC7-817B-468A-ACF5-BF0E079C895D) Beginning test session InstrSampleAppTests-29BF0FC7-817B-468A-ACF5-BF0E079C895D at 2018-02-11 14:43:11.071 with Xcode 9C40b on target <DVTiPhoneSimulator: 0x7fe00d079190> {
+		SimDevice: iPhone 6-instr (FB724473-1A1F-4B4E-AFE9-2CCF76EF6064, iOS 11.2, Booted)
+} (11.2 (15C107))
+[Instr] Found process InstrSampleApp with PID: 14699
+** TEST EXECUTE SUCCEEDED **
+
+2018-02-11 14:43:28.579621+0100 InstrSampleApp[14699:1559615] Crash handler setup started.
+2018-02-11 14:43:28.579903+0100 InstrSampleApp[14699:1559615] Crash handler setup completed.
+2018-02-11 14:43:28.580046+0100 InstrSampleApp[14699:1559615] Enabling accessibility for automation on Simulator.
+2018-02-11 14:43:29.771676+0100 InstrSampleApp[14699:1559615] [instr] Starting server at port 8081
+[DEBUG] Did open IPv4 listening socket 4
+[DEBUG] Did open IPv6 listening socket 6
+[INFO] GCDWebServer started on port 8081 and reachable at http://192.168.178.24:8081/
+[DEBUG] Did open connection on socket 7
+[DEBUG] Did connect
+[DEBUG] Did start background task
+[DEBUG] Connection received 148 bytes on socket 7
+[DEBUG] Connection on socket 7 preflighting request "GET /" with 148 bytes body
+[DEBUG] Connection on socket 7 processing request "GET /" with 148 bytes body
+2018-02-11 14:43:30.167644+0100 InstrSampleApp[14699:1559851] [instr] Request received
+[DEBUG] Connection sent 122 bytes on socket 7
+[DEBUG] Did close connection on socket 7
+[VERBOSE] [::1:8081] ::1:51492 200 "GET /" (148 | 122)
+Test Suite 'All tests' started at 2018-02-11 14:43:31.448
+Test Suite 'InstrSampleAppTests.xctest' started at 2018-02-11 14:43:31.449
+Test Suite 'EarlGreyTests' started at 2018-02-11 14:43:31.449
+Test Case '-[InstrSampleAppTests.EarlGreyTests testDetailView]' started.
+[DEBUG] Did disconnect
+[DEBUG] Did end background task
+Test Case '-[InstrSampleAppTests.EarlGreyTests testDetailView]' passed (3.312 seconds).
+Test Suite 'EarlGreyTests' passed at 2018-02-11 14:43:34.762.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.312 (3.313) seconds
+Test Suite 'InstrSampleAppTests.xctest' passed at 2018-02-11 14:43:34.763.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.312 (3.314) seconds
+Test Suite 'All tests' passed at 2018-02-11 14:43:34.763.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.312 (3.315) seconds
+[Instr] Spawned process (PID: 14708) from command: sudo dtrace -q -s /Users/crisosto/.rbenv/versions/2.0.0-p648/lib/ruby/gems/2.0.0/gems/instrumentality-0.1.3/lib/instrumentality/scripts/benchmark.d -p 14699 > /var/folders/1g/37d2t18n2y37gbjb61npzmlm5wcxmb/T/d20180211-12959-7csino/dtrace_output
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Publish performance report)
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] perfReport
+Performance: Recording JMeterCsv reports 'instr.jtl'
+Performance: Parsing JMeter report file '/var/jenkins_home/jobs/instr-ios-sample-app/builds/2/performance-reports/JMeterCSV/instr.jtl'.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File instr.jtl reported 0.0% of errors [SUCCESS]. Build status is: SUCCESS
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4M2H5JZbKw/64m4SXB35NrTPvYbTCZXLQ6/O2gYZdeo0AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

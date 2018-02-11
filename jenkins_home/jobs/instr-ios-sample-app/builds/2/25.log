@@ -1,0 +1,5 @@
+Performance: Recording JMeterCsv reports 'instr.jtl'
+Performance: Parsing JMeter report file '/var/jenkins_home/jobs/instr-ios-sample-app/builds/2/performance-reports/JMeterCSV/instr.jtl'.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File instr.jtl reported 0.0% of errors [SUCCESS]. Build status is: SUCCESS

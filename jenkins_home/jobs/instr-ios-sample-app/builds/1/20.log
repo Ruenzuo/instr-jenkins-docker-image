@@ -1,0 +1,46 @@
+[instr-ios-sample-app] Running shell script
++ bundle exec instr profile benchmark InstrSampleApp --workspace=InstrSampleApp.xcworkspace/ --server-port=8081
+[Instr] Executing command: xcodebuild -workspace /private/tmp/jenkins_macos_host/workspace/instr-ios-sample-app/InstrSampleApp.xcworkspace/ -scheme InstrSampleApp -sdk iphonesimulator -derivedDataPath /var/folders/1g/37d2t18n2y37gbjb61npzmlm5wcxmb/T/d20180211-11120-8y40xr/derivedData clean build-for-testing
+[Instr] Spawned process (PID: 11839) from command: xcodebuild -xctestrun /var/folders/1g/37d2t18n2y37gbjb61npzmlm5wcxmb/T/d20180211-11120-8y40xr/derivedData/Build/Products/InstrSampleApp_iphonesimulator11.2-x86_64.xctestrun -destination 'platform=iOS Simulator,id=0B4F5686-E40E-48D8-A671-A5F808D4D375' test-without-building
+User defaults from command line:
+    IDETestRunSpecificationPath = /var/folders/1g/37d2t18n2y37gbjb61npzmlm5wcxmb/T/d20180211-11120-8y40xr/derivedData/Build/Products/InstrSampleApp_iphonesimulator11.2-x86_64.xctestrun
+
+2018-02-11 14:41:44.135 xcodebuild[11839:1524969]  IDETestOperationsObserverDebug: Writing diagnostic log for test session to:
+/var/folders/1g/37d2t18n2y37gbjb61npzmlm5wcxmb/T/com.apple.dt.XCTest/IDETestRunSession-19797AC7-4A24-4CE5-88B6-1CA2E84AC05A/InstrSampleAppTests-2E1D46B3-1181-4BFD-9E7F-4D7F58C11ADA/Session-InstrSampleAppTests-2018-02-11_144144-L0JlTM.log
+2018-02-11 14:41:44.137 xcodebuild[11839:1524900] [MT] IDETestOperationsObserverDebug: (64682200-34B1-48A8-956D-C83D751397E9) Beginning test session InstrSampleAppTests-64682200-34B1-48A8-956D-C83D751397E9 at 2018-02-11 14:41:44.135 with Xcode 9C40b on target <DVTiPhoneSimulator: 0x7fae63c0ca20> {
+		SimDevice: iPhone 6-instr (0B4F5686-E40E-48D8-A671-A5F808D4D375, iOS 11.2, Booted)
+} (11.2 (15C107))
+[Instr] Found process InstrSampleApp with PID: 12591
+** TEST EXECUTE SUCCEEDED **
+
+2018-02-11 14:42:01.754179+0100 InstrSampleApp[12591:1531642] Crash handler setup started.
+2018-02-11 14:42:01.754477+0100 InstrSampleApp[12591:1531642] Crash handler setup completed.
+2018-02-11 14:42:01.754712+0100 InstrSampleApp[12591:1531642] Enabling accessibility for automation on Simulator.
+2018-02-11 14:42:03.071683+0100 InstrSampleApp[12591:1531642] [instr] Starting server at port 8081
+[DEBUG] Did open IPv4 listening socket 5
+[DEBUG] Did open IPv6 listening socket 6
+[INFO] GCDWebServer started on port 8081 and reachable at http://192.168.178.24:8081/
+[DEBUG] Did open connection on socket 7
+[DEBUG] Connection received 148 bytes on socket 7
+[DEBUG] Connection on socket 7 preflighting request "GET /" with 148 bytes body
+[DEBUG] Connection on socket 7 processing request "GET /" with 148 bytes body
+2018-02-11 14:42:03.077277+0100 InstrSampleApp[12591:1531792] [instr] Request received
+[DEBUG] Connection sent 122 bytes on socket 7
+[DEBUG] Did close connection on socket 7
+[VERBOSE] [::1:8081] ::1:51075 200 "GET /" (148 | 122)
+[DEBUG] Did connect
+[DEBUG] Did start background task
+[DEBUG] Did disconnect
+[DEBUG] Did end background task
+Test Suite 'All tests' started at 2018-02-11 14:42:04.308
+Test Suite 'InstrSampleAppTests.xctest' started at 2018-02-11 14:42:04.310
+Test Suite 'EarlGreyTests' started at 2018-02-11 14:42:04.310
+Test Case '-[InstrSampleAppTests.EarlGreyTests testDetailView]' started.
+Test Case '-[InstrSampleAppTests.EarlGreyTests testDetailView]' passed (3.140 seconds).
+Test Suite 'EarlGreyTests' passed at 2018-02-11 14:42:07.451.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.140 (3.141) seconds
+Test Suite 'InstrSampleAppTests.xctest' passed at 2018-02-11 14:42:07.451.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.140 (3.142) seconds
+Test Suite 'All tests' passed at 2018-02-11 14:42:07.452.
+	 Executed 1 test, with 0 failures (0 unexpected) in 3.140 (3.143) seconds
+[Instr] Spawned process (PID: 12604) from command: sudo dtrace -q -s /Users/crisosto/.rbenv/versions/2.0.0-p648/lib/ruby/gems/2.0.0/gems/instrumentality-0.1.3/lib/instrumentality/scripts/benchmark.d -p 12591 > /var/folders/1g/37d2t18n2y37gbjb61npzmlm5wcxmb/T/d20180211-11120-8y40xr/dtrace_output

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.44">
+    <parentIds>
+      <string>24</string>
+    </parentIds>
+    <id>25</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.CoreStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@2.25">
+      <startTime>1518356631739</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
+      <charset>UTF-8</charset>
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.44">
+      <arguments class="linked-hash-map">
+        <entry>
+          <string>delegate</string>
+          <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.13">
+            <symbol>perfReport</symbol>
+            <arguments class="tree-map">
+              <entry>
+                <string>percentiles</string>
+                <string>0,50,90,100</string>
+              </entry>
+              <entry>
+                <string>relativeFailedThresholdNegative</string>
+                <big-decimal>50.0</big-decimal>
+              </entry>
+              <entry>
+                <string>relativeFailedThresholdPositive</string>
+                <big-decimal>50.0</big-decimal>
+              </entry>
+              <entry>
+                <string>relativeUnstableThresholdNegative</string>
+                <big-decimal>20.0</big-decimal>
+              </entry>
+              <entry>
+                <string>relativeUnstableThresholdPositive</string>
+                <big-decimal>20.0</big-decimal>
+              </entry>
+              <entry>
+                <string>sourceDataFiles</string>
+                <string>instr.jtl</string>
+              </entry>
+            </arguments>
+          </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+  </actions>
+</Tag>

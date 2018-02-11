@@ -1,0 +1,11 @@
+[instr-ios-sample-app] Running shell script
++ bundle exec pod install
+Analyzing dependencies
+Downloading dependencies
+Using EarlGrey (1.12.1)
+Using GCDWebServer (3.4.2)
+Using instrserver (0.1.0)
+Generating Pods project
+Integrating client project
+Sending stats
+Pod installation complete! There are 3 dependencies from the Podfile and 3 total pods installed.
